@@ -8,13 +8,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListaCandidatosPage } from '../pages/lista-candidatos/lista-candidatos';
 import { CandidatoPage } from '../pages/candidato/candidato';
+import { CandidatosPreSelecionadosPage } from '../pages/candidatos-pre-selecionados/candidatos-pre-selecionados';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ListaCandidatosPage,
-    CandidatoPage
+    CandidatoPage,
+    CandidatosPreSelecionadosPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,8 @@ import { CandidatoPage } from '../pages/candidato/candidato';
     MyApp,
     HomePage,
     ListaCandidatosPage,
-    CandidatoPage
+    CandidatoPage,
+    CandidatosPreSelecionadosPage
   ],
   providers: [
     StatusBar,
