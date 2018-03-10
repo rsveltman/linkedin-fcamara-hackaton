@@ -15,6 +15,22 @@ var dataPaths = {
   "pathSkills" : "$.*.[8]"
 }
 
+function followsCompany(paths, candidate){
+  
+}
+function hasGithub(paths, candidate){
+  
+}
+function isSeekingJob(paths, candidate){
+  
+}
+function hasGithub(paths, candidate){
+  
+}
+function hasGithub(paths, candidate){
+  
+}
+
 
 loadJsonFile('./sample.json').then( json => {
     

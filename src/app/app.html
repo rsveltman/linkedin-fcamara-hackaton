@@ -1,1 +1,13 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="content">
+  <ion-content>
+    <ion-list>
+      <button ion-item *ngFor="let p of pages" (click)="openPage(p)">
+        {{p.title}}
+      </button>
+    </ion-list>
+    <img src="../assets/imgs/Logotipo-Horizontal-FCamara-2015-e1455123821994.png">
+  </ion-content>
+
+</ion-menu>
+
+<ion-nav #content [root]="rootPage"></ion-nav>
