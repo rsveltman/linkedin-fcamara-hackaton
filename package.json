@@ -32,7 +32,11 @@
     "zone.js": "0.8.18",
     "node-linkedin": "0.5.6",
     "express": "4.16.2",
-    "pryjs": "1.0.3"
+    "pryjs": "1.0.3",
+    "load-json-file": "4.0.0",
+    "parse-json": "4.0.0",
+    "entities": "1.1.1",
+    "advanced-json-path": "1.0.8"
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.1.8",

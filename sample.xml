@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <id>yrZCpj2Z12</id>
+  <firstName>
+    <localized>
+      <en_US>Bob</en_US>
+    </localized>
+    <preferredLocale>
+      <country>US</country>
+      <language>en</language>
+    </preferredLocale>
+  </firstName>
+  <lastName>
+    <localized>
+      <en_US>Smith</en_US>
+    </localized>
+    <preferredLocale>
+      <country>US</country>
+      <language>en</language>
+    </preferredLocale>
+  </lastName>
+  <location>
+    <countryCode>us</countryCode>
+    <postalCode>94101</postalCode>
+    <standardizedLocationUrn>urn:li:standardizedLocationKey:(us,94101)</standardizedLocationUrn>
+  </location>
+  <positions>
+    <660879450>
+      <companyName>
+        <localized>
+          <en_US>LinkedIn</en_US>
+        </localized>
+        <preferredLocale>
+          <country>US</country>
+          <language>en</language>
+        </preferredLocale>
+      </companyName>
+      <id>660879450</id>
+      <title>
+        <localized>
+          <en_US>Staff Software Engineer</en_US>
+        </localized>
+        <preferredLocale>
+          <country>US</country>
+          <language>en</language>
+        </preferredLocale>
+      </title>
+    </660879450>
+  </positions>
+  <headline>
+    <localized>
+      <en_US>API Enthusiast at LinkedIn</en_US>
+    </localized>
+    <preferredLocale>
+      <country>US</country>
+      <language>en</language>
+    </preferredLocale>
+  </headline>
+</root>

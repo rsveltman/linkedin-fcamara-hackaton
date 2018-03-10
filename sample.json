@@ -1,0 +1,76 @@
+{
+  "id": "yrZCpj2Z12",
+  "firstName": {
+    "localized": {
+      "en_US": "Bob"
+    },
+    "preferredLocale": {
+      "country": "US",
+      "language": "en"
+    }
+  },
+  "lastName": {
+    "localized": {
+      "en_US": "Smith"
+    },
+    "preferredLocale": {
+      "country": "US",
+      "language": "en"
+    }
+  },
+  "location": {
+    "countryCode": "us",
+    "postalCode": "94101",
+    "standardizedLocationUrn": "urn:li:standardizedLocationKey:(us,94101)"
+  },
+  "positions": {
+    "660879450": {
+      "companyName": {
+        "localized": {
+          "en_US": "LinkedIn"
+        },
+        "preferredLocale": {
+          "country": "US",
+          "language": "en"
+        }
+      },
+      "id": 660879450,
+      "title": {
+        "localized": {
+          "en_US": "Staff Software Engineer"
+        },
+        "preferredLocale": {
+          "country": "US",
+          "language": "en"
+        }
+      }
+    }
+  },
+  "headline": {
+    "localized": {
+      "en_US": "API Enthusiast at LinkedIn"
+    },
+    "preferredLocale": {
+      "country": "US",
+      "language": "en"
+    }
+  },
+  "social": {
+    "friends": 21,
+    "posts": 13,
+    "likes": 2
+  },
+  "socialMedia" : {
+    "github": "",
+    "facebook": "",
+    "instagram": "https://www.instagram.com/egofaptor/"
+  },
+  "jobsWanted" : {
+    "en_US" : "Developer"
+  },
+  "skills" : {
+    "en_US" : "PHP",
+    "en_US" : "Ruby",
+    "en_US" : "MS Paint",
+  }
+}
