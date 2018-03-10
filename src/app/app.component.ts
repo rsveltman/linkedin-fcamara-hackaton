@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListaCandidatosPage } from '../pages/lista-candidatos/lista-candidatos';
+import { CandidatosPreSelecionadosPage } from '../pages/candidatos-pre-selecionados/candidatos-pre-selecionados';
 @Component({
   templateUrl: 'app.html'
 })
@@ -12,6 +13,7 @@ export class MyApp {
   @ViewChild(Nav) nav: Nav;
   rootPage:any = HomePage;
   pages: Array<{title: string, component: any}>;
+  menu: any;
 
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, menu: MenuController) {
     platform.ready().then(() => {
@@ -22,7 +24,8 @@ export class MyApp {
     });
     
     this.pages = [
-      { title: 'Candidatos', component: ListaCandidatosPage }
+      { title: 'Candidatos', component: ListaCandidatosPage },
+      { title: 'Candidatos Selecionados', component: CandidatosPreSelecionadosPage }
     ];
   }
   openPage(page) {
